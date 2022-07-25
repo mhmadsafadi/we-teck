@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>We Teck</title>
+</head>
+
+<body class="selection:bg-slate-100 selection:text-mainColor">
+    <nav id="navbar" class="fixed bg-mainColor p-4">
+        <div class="container mx-auto">
+            <div class="flex items-center justify-between">
+                <div class="logo">
+                    <img src="images/logo.png" width="80" alt="">
+                </div>
+                <div class="hidden md:flex flex-row-reverse space-x-6">
+                    <a href="#"
+                        class="text-lg text-white p-2 rounded-full hover:bg-white hover:text-mainColor transition-all">الصفحة
+                        الرئيسية</a>
+                    <a href="#"
+                        class="text-lg text-white p-2 rounded-full hover:bg-white hover:text-mainColor transition-all">خدماتنا</a>
+                    <a href="#"
+                        class="text-lg text-white p-2 rounded-full hover:bg-white hover:text-mainColor transition-all">عن
+                        ويتك</a>
+                    <a href="#"
+                        class="text-lg text-white p-2 rounded-full hover:bg-white hover:text-mainColor transition-all">المدونة</a>
+                    <a href="#"
+                        class="text-lg text-white p-2 rounded-full hover:bg-white hover:text-mainColor transition-all">تواصل
+                        معنا</a>
+                </div>
+
+                <button id="menu-btn" class="block md:hidden hamburger">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+
+            <div class="md:hidden">
+                <div id="menu"
+                    class="absolute flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                    <a href="#" class="font-bold text-slate-600 hover:text-mainColor">الصفحة الرئيسية</a>
+                    <a href="#" class="font-bold text-slate-600 hover:text-mainColor">خدماتنا</a>
+                    <a href="#" class="font-bold text-slate-600 hover:text-mainColor">عن يو تك</a>
+                    <a href="#" class="font-bold text-slate-600 hover:text-mainColor">المدونة</a>
+                    <a href="#" class="font-bold text-slate-600 hover:text-mainColor">تواصل معنا</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero mt-24">
+        <div
+            class="container mx-auto flex flex-col-reverse lg:flex-row items-center text-center lg:text-end gap-5 lg:gap-10">
+            <div class="flex flex-col lg:w-1/2 text-white">
+                <h3 class="text-2xl lg:text-4xl xl:text-5xl font-bold hero-title">الابداع هو مفتاح النجاح</h3>
+                <p class="text-base lg:text-xl my-5 lg:my-6">
+                    لدينا فريق من المبدعين فى كافة خدمات صيانة الجوالات بجميع انواعها يعملون على مدار الاسبوع بشكل دائم
+                    فى خدمتكم ، ايضا لدينا اقسام اخرى فى مجال التقنية بشكل عام فكل ما تريده فى المجال التقني ستجده فى
+                    مكان واحد وهو تطبيق وي تك
+                </p>
+                <div class="flex gap-6 justify-center lg:justify-end">
+                    <button
+                        class="rounded-xl transition ease-in-out hover:-translate-y-1 duration-300 bg-white bg-opacity-75 hover:bg-opacity-100 text-black flex items-center gap-2 px-6 py-3 drop-shadow-2xl">
+                        <img src="images/app-store.png" width="30" alt="">
+                        <span class="text-lg">App Store</span>
+                    </button>
+                    <button
+                        class="rounded-xl transition ease-in-out hover:-translate-y-1 duration-300 bg-white bg-opacity-75 hover:bg-opacity-100 text-black flex items-center gap-2 px-6 py-3 drop-shadow-2xl">
+                        <img src="images/google-play.png" width="30" alt="">
+                        <span class="text-lg">Play Store</span>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-img lg:w-1/2">
+                <img src="images/hero-img.png" class="transition-all duration-500 scale-95 hover:scale-100" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="weteck-app mt-10 py-24 md:py-36">
+        <div class="container mx-auto">
+            <div class="flex flex-col mx-auto lg:w-1/2 text-center">
+                <h3 class="text-2xl lg:text-4xl font-bold text-neutral-700 js-scroll fade-in-bottom">فيما تكمن قوة تطبيق وي تك ؟</h3>
+                <p class="text-base lg:text-xl mb-5 mt-5 lg:mt-8 text-neutral-500 js-scroll fade-in">
+                    لدينا فريق من المبدعين فى كافة خدمات صيانة الجوالات بجميع انواعها يعملون على مدار الاسبوع بشكل دائم
+                    فى خدمتكم ، ايضا لدينا اقسام اخرى فى مجال التقنية بشكل عام فكل ما تريده فى المجال التقني ستجده فى
+                    مكان واحد وهو تطبيق وي تك
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="service mb-10">
+        <div class="container mx-auto">
+            <div class="text-center mb-3 js-scroll slide-right">
+                <h3 class="text-2xl lg:text-4xl font-bold text-neutral-700">خدماتنا الرئيسية</h3>
+            </div>
+            <div class="swiper serviceSwiper js-scroll fade-in-bottom">
+                <div class="swiper-wrapper text-center py-16">
+                    <div class="swiper-slide transition ease-in hover:-translate-y-3">
+                        <div
+                            class="bg-serviceColor hover:bg-mainColor hover:text-white h-60 rounded-3xl shadow-lg flex flex-col items-center justify-center p-2 py-5 gap-5 transition-colors">
+                            <img src="images/serv-1.png" width="100" alt="">
+                            <p class="font-medium text-lg">صيانة جوالات</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide transition ease-in hover:-translate-y-3">
+                        <div
+                            class="bg-serviceColor hover:bg-mainColor hover:text-white h-60 rounded-3xl shadow-lg flex flex-col items-center justify-center p-2 py-5 gap-5 transition-colors">
+                            <img src="images/serv-2.png" width="100" alt="">
+                            <p class="font-medium text-lg">صيانةالكمبيوتر</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide transition ease-in hover:-translate-y-3">
+                        <div
+                            class="bg-serviceColor hover:bg-mainColor hover:text-white h-60 rounded-3xl shadow-lg flex flex-col items-center justify-center p-2 py-5 gap-5 transition-colors">
+                            <img src="images/serv-3.png" width="100" alt="">
+                            <p class="font-medium text-lg">صيانة الماك</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide transition ease-in hover:-translate-y-3">
+                        <div
+                            class="bg-serviceColor hover:bg-mainColor hover:text-white h-60 rounded-3xl shadow-lg flex flex-col items-center justify-center p-2 py-5 gap-5 transition-colors">
+                            <img src="images/serv-4.png" width="100" alt="">
+                            <p class="font-medium text-lg">خدمات شراء الأجهزة الجوالة وأجهزة الحاسوب وغيرها</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide transition ease-in hover:-translate-y-3">
+                        <div
+                            class="bg-serviceColor hover:bg-mainColor hover:text-white h-60 rounded-3xl shadow-lg flex flex-col items-center justify-center p-2 py-5 gap-5 transition-colors">
+                            <img src="images/serv-5.png" width="100" alt="">
+                            <p class="font-medium text-lg">المتاجر الالكترونية</p>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide transition ease-in hover:-translate-y-3">
+                        <div
+                            class="bg-serviceColor hover:bg-mainColor hover:text-white h-60 rounded-3xl shadow-lg flex flex-col items-center justify-center p-2 py-5 gap-5 transition-colors">
+                            <img src="images/serv-6.png" width="100" alt="">
+                            <p class="font-medium text-lg">الانظمة والتقنية</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner container mx-auto my-16 py-24 px-10">
+        <div class="lg:w-1/2 ml-auto text-white text-right js-scroll fade-in">
+            <h3 class="text-2xl lg:text-3xl font-bold js-scroll slide-right">هل تعرف كم عدد المبدعين الذين يعملون هنا؟</h3>
+            <p class="text-base lg:text-xl my-5 lg:my-6 js-scroll slide-right">فضل الله وتوفيقه وثقة عملائنا لديين فريق من المبدعين دائمين
+                الشغف للعطاء يغطون مكة وجدة والرياض والمدينة المنورة وقريبا باقي مناطق المملكة</p>
+            <a href="#" class="bg-mainColor hover:bg-mainColor/[.8] w-fit py-3 px-6 rounded-full js-scroll fade-in-top">اقرأ المزيد</a>
+        </div>
+    </section>
+
+    <section class="why-teck text-center my-24">
+        <div class="container mx-auto pt-6 md:py-24">
+
+            <h3 class="text-2xl lg:text-4xl font-bold text-neutral-700 js-scroll fade-in-bottom">لماذا تختار وي تك؟</h3>
+
+            <div class="flex flex-col lg:flex-row mt-6 md:mt-24 gap-5">
+                <div class="flex flex-col items-center justify-center lg:w-1/3 p-10 js-scroll slide-left">
+                    <img src="images/why-1.png" width="120" alt="">
+                    <h5 class="font-medium text-lg my-2">دفع سهل وآمن</h5>
+                    <p class="text-slate-500">نحن نعتمد على وسائل الدفع امنة ، يمكنك التعامل مع المدفوعات بدون قلق</p>
+                </div>
+                <div class="flex flex-col items-center justify-center lg:w-1/3 p-10 js-scroll fade-in-bottom">
+                    <img src="images/why-2.png" width="120" alt="">
+                    <h5 class="font-medium text-lg my-2">في عدة دول</h5>
+                    <p class="text-slate-500">ندعم كل الدول العربية ، نسعى الى نشر لتطبيق في العالم العربي ككل</p>
+                </div>
+                <div class="flex flex-col items-center justify-center lg:w-1/3 p-10 js-scroll slide-right">
+                    <img src="images/why-3.png" width="120" alt="">
+                    <h5 class="font-medium text-lg my-2">دعم فني</h5>
+                    <p class="text-slate-500">فى حالة وجود اي مشكلة تجد دعم على مدار اليوم بكل اللى تبغيه</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="customers flex items-center py-24 lg:py-3">
+        <div class="container relative mx-auto flex flex-col-reverse lg:flex-row gap-5 text-right">
+            <div class="lg:w-1/2 js-scroll fade-in-bottom">
+                <div dir="rtl" class="swiper customersSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide bg-mainColor text-white">
+                            <div class="flex items-center gap-5 mb-6">
+                                <div>
+                                    <img class="h-16 w-16 rounded-full" src="https://forumine.com/download/file.php?avatar=54_1519777959.jpg" alt=""/>
+                                </div>
+                                <div>
+                                    <h6>رهف</h6>
+                                    <div class="flex items-center">
+                                        <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Second star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Third star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Fourth star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-yellow-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                            <path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p>شكرا تطبيق دكتور تك التطبيق جدا ممتاز ورائع والعاملين عليه جدا محترمين وفنانين بالصيانة واشكر العاملين</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide bg-cardColor text-white">
+                            <div class="flex items-center gap-5 mb-6">
+                                <div>
+                                    <img class="h-16 w-16 rounded-full" src="http://envato.rathemes.com/infinity/assets/images/217.jpg" alt=""/>
+                                </div>
+                                <div>
+                                    <h6>ايلاف ابو حلو</h6>
+                                    <div class="flex items-center">
+                                        <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Second star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Third star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Fourth star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-yellow-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                            <path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p>شكرا تطبيق دكتور تك التطبيق جدا ممتاز ورائع والعاملين عليه جدا محترمين وفنانين بالصيانة واشكر العاملين</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide bg-green-400 text-white">
+                            <div class="flex items-center gap-5 mb-6">
+                                <div>
+                                    <img class="h-16 w-16 rounded-full" src="https://preview.keenthemes.com/craft/assets/media/avatars/300-1.jpg" alt=""/>
+                                </div>
+                                <div>
+                                    <h6>محمد الصفدي</h6>
+                                    <div class="flex items-center">
+                                        <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Second star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Third star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Fourth star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-yellow-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                            <path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p>شكرا تطبيق دكتور تك التطبيق جدا ممتاز ورائع والعاملين عليه جدا محترمين وفنانين بالصيانة واشكر العاملين</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide bg-rose-400 text-white">
+                            <div class="flex items-center gap-5 mb-6">
+                                <div>
+                                    <img class="h-16 w-16 rounded-full" src="https://forumine.com/download/file.php?avatar=52_1519458262.jpg" alt=""/>
+                                </div>
+                                <div>
+                                    <h6>احمد الحية</h6>
+                                    <div class="flex items-center">
+                                        <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Second star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Third star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <svg aria-hidden="true" class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Fourth star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                        <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="star" class="w-4 text-yellow-500" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                            <path fill="currentColor" d="M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <p>شكرا تطبيق دكتور تك التطبيق جدا ممتاز ورائع والعاملين عليه جدا محترمين وفنانين بالصيانة واشكر العاملين</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden md:block space-x-5 mt-8">
+                    <button class="next-arrow rounded-full p-3 text-mainColor bg-mainColor/[.1] hover:bg-mainColor/[.2] hover:-translate-y-1 transition-all">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                        </svg>
+                    </button>
+                    <button class="prev-arrow rounded-full p-3 text-mainColor bg-mainColor/[.1] hover:bg-mainColor/[.2] hover:-translate-y-1 transition-all">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="flex flex-col justify-center lg:w-1/2 mb-10 lg:mb-0 js-scroll slide-right">
+                <h3 class="text-2xl lg:text-5xl font-medium text-neutral-700">توصيات مستخدمينا</h3>
+                <p class="text-base md:text-lg mt-3">نتميز ونفتخر أولا بوجودكم معنا ثم بثقافة العمل والتشغيل كوسطاء بين مزودين الخدمات والعملاء </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-24 pb-5 py-16 text-white bg-gradient-to-t from-footerColor to-mainColor rounded-t-3xl md:rounded-t-[4.5rem]">
+        <div class="container mx-auto">
+            <div class="text-center">
+                <h3 class="text-base lg:text-3xl font-medium js-scroll fade-in-bottom">كافة خدمات وي تك بين يديك الان حمل التطبيق</h3>
+                <div class="flex gap-6 justify-center my-6 lg:my-10 js-scroll fade-in">
+                    <button
+                        class="rounded-lg transition ease-in-out hover:-translate-y-1 duration-300 bg-white bg-opacity-80 hover:bg-opacity-100 text-black flex items-center gap-2 px-3 py-2 lg:px-8 lg:py-4 drop-shadow-2xl">
+                        <img src="images/app-store.png" width="30" alt="">
+                        <span class="text-lg">App Store</span>
+                    </button>
+                    <button
+                        class="rounded-lg transition ease-in-out hover:-translate-y-1 duration-300 bg-white bg-opacity-80 hover:bg-opacity-100 text-black flex items-center gap-2 px-3 py-2 lg:px-8 lg:py-4 drop-shadow-2xl">
+                        <img src="images/google-play.png" width="30" alt="">
+                        <span class="text-lg">Play Store</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row items-center justify-between my-10">
+                <div class="hidden md:block">
+                    <img src="images/logo.png" width="120" alt="">
+                </div>
+                <div class="social-media my-4 md:my-0">
+                    <div class="flex space-x-6">
+                        <a href="#" class="text-white transition ease-in-out hover:-translate-y-1 hover:text-gray-400">
+                            <span class="sr-only">Facebook</span>
+                            <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd"
+                                    d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-white transition ease-in-out hover:-translate-y-1 hover:text-gray-400">
+                            <span class="sr-only">Instagram</span>
+                            <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd"
+                                    d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-white transition ease-in-out hover:-translate-y-1 hover:text-gray-400">
+                            <span class="sr-only">Twitter</span>
+                            <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-white transition ease-in-out hover:-translate-y-1 hover:text-gray-400">
+                            <span class="sr-only">GitHub</span>
+                            <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd"
+                                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center gap-1">
+                    <a class="text-base md:text-lg transition ease-in-out hover:text-gray-400" href="tel:920008035">+920008035</a>
+                    <a class="text-base md:text-lg transition ease-in-out hover:text-gray-400" href="mailto:abc@example.com">info@wetechapp.com</a>
+                </div>
+            </div>
+
+            <p class="text-center text-gray-400">© 2022 {{WETECHAPP}}. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
